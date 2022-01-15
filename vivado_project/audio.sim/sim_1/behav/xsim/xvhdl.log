@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/clk_wiz_0_sim_netlist.vhdl" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clk_wiz_0_clk_wiz_0_clk_wiz'
+INFO: [VRFC 10-3107] analyzing entity 'clk_wiz_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'top_vhdl'

@@ -14,30 +14,30 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 18560 
+INFO: Helper process launched with PID 20316 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 393.535 ; gain = 100.215
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 393.586 ; gain = 100.480
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'top_vhdl' [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:50]
+INFO: [Synth 8-638] synthesizing module 'top_vhdl' [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:50]
 	Parameter NUMBER_OF_SWITCHES bound to: 4 - type: integer 
 	Parameter RESET_POLARITY bound to: 1'b0 
-INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/audio.runs/synth_1/.Xil/Vivado-21420-LAPTOP-FI2A30MP/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'm_clk' of component 'clk_wiz_0' [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:117]
-INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/audio.runs/synth_1/.Xil/Vivado-21420-LAPTOP-FI2A30MP/realtime/clk_wiz_0_stub.vhdl:13]
-INFO: [Synth 8-3491] module 'axis_i2s2' declared at 'C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/axis_i2s2.v:24' bound to instance 'm_i2s2' of component 'axis_i2s2' [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:126]
-INFO: [Synth 8-6157] synthesizing module 'axis_i2s2' [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/axis_i2s2.v:24]
+INFO: [Synth 8-3491] module 'clk_wiz_0' declared at 'C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.runs/synth_1/.Xil/Vivado-10356-LAPTOP-FI2A30MP/realtime/clk_wiz_0_stub.vhdl:5' bound to instance 'm_clk' of component 'clk_wiz_0' [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.runs/synth_1/.Xil/Vivado-10356-LAPTOP-FI2A30MP/realtime/clk_wiz_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'axis_i2s2' declared at 'C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_i2s2.v:24' bound to instance 'm_i2s2' of component 'axis_i2s2' [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:126]
+INFO: [Synth 8-6157] synthesizing module 'axis_i2s2' [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_i2s2.v:24]
 	Parameter EOF_COUNT bound to: 9'b111000111 
-INFO: [Synth 8-6155] done synthesizing module 'axis_i2s2' (1#1) [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/axis_i2s2.v:24]
+INFO: [Synth 8-6155] done synthesizing module 'axis_i2s2' (1#1) [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_i2s2.v:24]
 	Parameter SWITCH_WIDTH bound to: 4 - type: integer 
 	Parameter DATA_WIDTH bound to: 24 - type: integer 
-INFO: [Synth 8-3491] module 'axis_volume_controller' declared at 'C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/axis_volume_controller.v:21' bound to instance 'm_vc' of component 'axis_volume_controller' [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:148]
-INFO: [Synth 8-6157] synthesizing module 'axis_volume_controller' [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/axis_volume_controller.v:21]
+INFO: [Synth 8-3491] module 'axis_volume_controller' declared at 'C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_volume_controller.v:21' bound to instance 'm_vc' of component 'axis_volume_controller' [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:148]
+INFO: [Synth 8-6157] synthesizing module 'axis_volume_controller' [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_volume_controller.v:21]
 	Parameter SWITCH_WIDTH bound to: 4 - type: integer 
 	Parameter DATA_WIDTH bound to: 24 - type: integer 
 	Parameter MULTIPLIER_WIDTH bound to: 24 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'axis_volume_controller' (2#1) [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/axis_volume_controller.v:21]
-INFO: [Synth 8-256] done synthesizing module 'top_vhdl' (3#1) [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:50]
+INFO: [Synth 8-6155] done synthesizing module 'axis_volume_controller' (2#1) [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_volume_controller.v:21]
+INFO: [Synth 8-256] done synthesizing module 'top_vhdl' (3#1) [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:50]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 450.336 ; gain = 157.016
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 449.277 ; gain = 156.172
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -46,64 +46,64 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[31] to constant 0 [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:126]
-WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[30] to constant 0 [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:126]
-WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[29] to constant 0 [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:126]
-WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[28] to constant 0 [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:126]
-WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[27] to constant 0 [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:126]
-WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[26] to constant 0 [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:126]
-WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[25] to constant 0 [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:126]
-WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[24] to constant 0 [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd:126]
+WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[31] to constant 0 [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:126]
+WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[30] to constant 0 [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:126]
+WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[29] to constant 0 [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:126]
+WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[28] to constant 0 [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:126]
+WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[27] to constant 0 [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:126]
+WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[26] to constant 0 [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:126]
+WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[25] to constant 0 [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:126]
+WARNING: [Synth 8-3295] tying undriven pin m_i2s2:tx_axis_s_data[24] to constant 0 [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd:126]
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 450.336 ; gain = 157.016
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 449.277 ; gain = 156.172
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 450.336 ; gain = 157.016
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 449.277 ; gain = 156.172
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'm_clk'
-Finished Parsing XDC File [c:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'm_clk'
-Parsing XDC File [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/Arty-A7-100-Master.xdc]
-Finished Parsing XDC File [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/Arty-A7-100-Master.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/Arty-A7-100-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_vhdl_propImpl.xdc].
+Parsing XDC File [c:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'm_clk'
+Finished Parsing XDC File [c:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'm_clk'
+Parsing XDC File [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/Arty-A7-100-Master.xdc]
+Finished Parsing XDC File [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/Arty-A7-100-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/Arty-A7-100-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_vhdl_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_vhdl_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 802.816 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 803.035 ; gain = 0.000
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 802.816 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 803.035 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 802.816 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 802.816 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 803.035 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 803.035 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 802.816 ; gain = 509.496
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 803.035 ; gain = 509.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 802.816 ; gain = 509.496
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 803.035 ; gain = 509.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/clk_wiz_0/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
 Applied set_property DONT_TOUCH = true for m_clk. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 802.816 ; gain = 509.496
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 803.035 ; gain = 509.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 802.816 ; gain = 509.496
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 803.035 ; gain = 509.930
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -189,8 +189,8 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 6 [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/axis_volume_controller.v:76]
-INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 6 [C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/axis_volume_controller.v:77]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 6 [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_volume_controller.v:76]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 6 [C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_volume_controller.v:77]
 DSP Report: Generating DSP m_vc/, operation Mode is: A2*B2.
 DSP Report: register B is absorbed into DSP m_vc/.
 DSP Report: register A is absorbed into DSP m_vc/.
@@ -252,7 +252,7 @@ DSP Report: register A is absorbed into DSP m_vc/.
 DSP Report: operator m_vc/ is absorbed into DSP m_vc/.
 DSP Report: operator m_vc/ is absorbed into DSP m_vc/.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 802.816 ; gain = 509.496
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 803.035 ; gain = 509.930
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -292,13 +292,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'm_clk/axis_clk' to pin 'm_clk/bbstub_axis_clk/O'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 829.297 ; gain = 535.977
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:39 . Memory (MB): peak = 831.703 ; gain = 538.598
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 863.801 ; gain = 570.480
+Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 866.590 ; gain = 573.484
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -310,7 +310,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 867.578 ; gain = 574.258
+Finished Technology Mapping : Time (s): cpu = 00:00:38 ; elapsed = 00:00:41 . Memory (MB): peak = 870.152 ; gain = 577.047
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -334,7 +334,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 867.578 ; gain = 574.258
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 870.152 ; gain = 577.047
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -347,7 +347,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:00:52 . Memory (MB): peak = 867.578 ; gain = 574.258
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 870.152 ; gain = 577.047
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -359,25 +359,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 867.578 ; gain = 574.258
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 870.152 ; gain = 577.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 867.578 ; gain = 574.258
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:43 . Memory (MB): peak = 870.152 ; gain = 577.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 867.578 ; gain = 574.258
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 870.152 ; gain = 577.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 867.578 ; gain = 574.258
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 870.152 ; gain = 577.047
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -418,27 +418,27 @@ Report Instance Areas:
 |3     |  m_vc   |axis_volume_controller |   361|
 +------+---------+-----------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 867.578 ; gain = 574.258
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 870.152 ; gain = 577.047
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 867.578 ; gain = 221.777
-Synthesis Optimization Complete : Time (s): cpu = 00:00:50 ; elapsed = 00:00:53 . Memory (MB): peak = 867.578 ; gain = 574.258
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:29 ; elapsed = 00:00:35 . Memory (MB): peak = 870.152 ; gain = 223.289
+Synthesis Optimization Complete : Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 870.152 ; gain = 577.047
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 54 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 867.578 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 870.152 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 26 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:53 ; elapsed = 00:00:57 . Memory (MB): peak = 867.578 ; gain = 585.734
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 867.578 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:47 . Memory (MB): peak = 870.152 ; gain = 588.516
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 870.152 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/audio.runs/synth_1/top_vhdl.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.runs/synth_1/top_vhdl.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_vhdl_utilization_synth.rpt -pb top_vhdl_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Jan 12 14:13:03 2022...
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 14 14:44:01 2022...

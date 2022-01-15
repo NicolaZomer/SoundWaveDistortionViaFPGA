@@ -23,22 +23,22 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/audio.cache/wt [current_project]
-set_property parent.project_path C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/audio.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.cache/wt [current_project]
+set_property parent.project_path C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.xpr [current_project]
 set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
-set_property ip_output_repo c:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/audio.cache/ip [current_project]
+set_property ip_output_repo c:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_verilog -library xil_defaultlib {
-  C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/axis_i2s2.v
-  C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/axis_volume_controller.v
+  C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_i2s2.v
+  C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_volume_controller.v
 }
-read_vhdl -library xil_defaultlib C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/top.vhd
-read_ip -quiet C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/clk_wiz_0.xci
-set_property used_in_implementation false [get_files -all c:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/clk_wiz_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/clk_wiz_0.xdc]
-set_property used_in_implementation false [get_files -all c:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/clk_wiz_0_ooc.xdc]
+read_vhdl -library xil_defaultlib C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/top.vhd
+read_ip -quiet C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/clk_wiz_0.xci
+set_property used_in_implementation false [get_files -all c:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/clk_wiz_0_board.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/clk_wiz_0.xdc]
+set_property used_in_implementation false [get_files -all c:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/clk_wiz_0_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -48,8 +48,8 @@ set_property used_in_implementation false [get_files -all c:/Users/Nicola/Docume
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/Arty-A7-100-Master.xdc
-set_property used_in_implementation false [get_files C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/Arty-A7-100-Master.xdc]
+read_xdc C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/Arty-A7-100-Master.xdc
+set_property used_in_implementation false [get_files C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/Arty-A7-100-Master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

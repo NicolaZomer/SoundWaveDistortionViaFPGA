@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jan 14 14:44:46 2022
+# Process ID: 22208
+# Current directory: C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.sim/sim_1/behav/xsim/xsim.dir/top_vhdl_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.sim/sim_1/behav/xsim/xsim.dir/top_vhdl_behav/webtalk/xsim_webtalk.tcl -notrace

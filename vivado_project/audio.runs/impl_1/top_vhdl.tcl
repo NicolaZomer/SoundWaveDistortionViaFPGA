@@ -66,7 +66,7 @@ set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   open_checkpoint top_vhdl_routed.dcp
-  set_property webtalk.parent_dir C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/audio.cache/wt [current_project]
+  set_property webtalk.parent_dir C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.cache/wt [current_project]
   set_property XPM_LIBRARIES XPM_CDC [current_project]
   catch { write_mem_info -force top_vhdl.mmi }
   write_bitstream -force top_vhdl.bit 

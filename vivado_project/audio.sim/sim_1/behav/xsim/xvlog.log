@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_i2s2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_i2s2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/axis_volume_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axis_volume_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

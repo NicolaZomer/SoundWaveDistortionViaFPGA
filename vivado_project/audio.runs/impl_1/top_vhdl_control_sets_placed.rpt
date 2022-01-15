@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Wed Jan 12 14:14:51 2022
+| Date         : Fri Jan 14 14:45:22 2022
 | Host         : LAPTOP-FI2A30MP running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file top_vhdl_control_sets_placed.rpt
 | Design       : top_vhdl
@@ -59,14 +59,14 @@ Table of Contents
 +----------------------+--------------------------------+------------------------------+------------------+----------------+
 |     Clock Signal     |          Enable Signal         |       Set/Reset Signal       | Slice Load Count | Bel Load Count |
 +----------------------+--------------------------------+------------------------------+------------------+----------------+
-|  m_clk/inst/axis_clk | m_i2s2/tx_data_r_shift[23]     |                              |                4 |             23 |
 |  m_clk/inst/axis_clk | m_i2s2/tx_data_l_shift0_in[23] |                              |                4 |             23 |
-|  m_clk/inst/axis_clk | m_i2s2/rx_data_r_shift_1       |                              |                8 |             24 |
-|  m_clk/inst/axis_clk | m_i2s2/rx_data_l_shift_2       |                              |               11 |             24 |
-|  m_clk/inst/axis_clk | m_i2s2/rx_axis_m_last_reg_4    | m_i2s2/rx_axis_m_last_reg_7  |                6 |             24 |
-|  m_clk/inst/axis_clk | m_i2s2/rx_axis_m_last_reg_5    | m_i2s2/rx_axis_m_last_reg_6  |                7 |             24 |
+|  m_clk/inst/axis_clk | m_i2s2/tx_data_r_shift[23]     |                              |                4 |             23 |
 |  m_clk/inst/axis_clk | m_vc/E[0]                      | m_i2s2/rx_data_l[23]_i_1_n_0 |                5 |             24 |
 |  m_clk/inst/axis_clk | m_vc/tx_axis_s_ready_reg[0]    | m_i2s2/rx_data_l[23]_i_1_n_0 |                7 |             24 |
+|  m_clk/inst/axis_clk | m_i2s2/rx_axis_m_last_reg_4    | m_i2s2/rx_axis_m_last_reg_7  |                6 |             24 |
+|  m_clk/inst/axis_clk | m_i2s2/rx_data_l_shift_2       |                              |               11 |             24 |
+|  m_clk/inst/axis_clk | m_i2s2/rx_data_r_shift_1       |                              |                8 |             24 |
+|  m_clk/inst/axis_clk | m_i2s2/rx_axis_m_last_reg_5    | m_i2s2/rx_axis_m_last_reg_6  |                7 |             24 |
 |  m_clk/inst/axis_clk |                                |                              |               15 |             33 |
 |  m_clk/inst/axis_clk | m_i2s2/rx_data_l0              | m_i2s2/rx_data_l[23]_i_1_n_0 |               15 |             48 |
 +----------------------+--------------------------------+------------------------------+------------------+----------------+

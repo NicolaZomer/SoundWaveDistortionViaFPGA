@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Wed Jan 12 14:16:19 2022
+| Date             : Fri Jan 14 14:46:14 2022
 | Host             : LAPTOP-FI2A30MP running 64-bit major release  (build 9200)
 | Command          : report_power -file top_vhdl_power_routed.rpt -pb top_vhdl_power_summary_routed.pb -rpx top_vhdl_power_routed.rpx
 | Design           : top_vhdl

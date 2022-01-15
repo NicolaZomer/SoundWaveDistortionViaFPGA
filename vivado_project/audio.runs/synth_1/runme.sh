@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Nicola/Documents/Arty-A7-100-Pmod-I2S2-2018.2-1/vivado_hope/audio.runs/synth_1'
+HD_PWD='C:/Users/Nicola/Documents/university/MSc_physics_of_data/S1_management_and_analysis_of_physics_dataset/lab_projects/FINAL_PROJECT/vivado_project/audio.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
